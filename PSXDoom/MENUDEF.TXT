@@ -1,0 +1,79 @@
+/* PSX MENUDEF by Dragonsbrethren. Attempts to mimic the PSX menus, which
+	unfortunately isn't really possible with MENUDEF currently. */
+DEFAULTLISTMENU
+{
+	Font "BigFont", "Untranslated"
+	Selector "M_SKULL1", -24, -2
+	Linespacing 25
+}
+
+LISTMENU "MainMenu"
+{
+	StaticPatch 107, 10, "M_DOOM"
+	Position 107, 81
+	TextItem "$MNU_NEWGAME", "n", "EpisodeMenu"
+	TextItem "$MNU_OPTIONS","o", "PSXOptionsMenu"
+	TextItem "$MNU_LOADGAME", "l", "LoadGameMenu"
+	TextItem "$MNU_SAVEGAME", "s", "SaveGameMenu"
+	TextItem "$MNU_QUITGAME", "q", "QuitMenu"
+}
+
+ListMenu "EpisodeMenu"
+{
+	Linespacing 20
+	NetgameMessage "$NETGAME"
+	
+	Position 122, 30
+	StaticText 107, 10, "$MNU_EPISODE"
+	// items will be filled in by MAPINFO
+}
+
+ListMenu "SkillMenu"
+{
+		Linespacing 20
+		
+		StaticText 107, 10, "$MNU_SKILL"
+		Position 122, 30
+}
+
+ListMenu "LoadGameMenu"
+{
+	NetgameMessage "$LOADNET"
+	
+	StaticTextCentered 160, -20, "$MNU_LOADGAME"
+	Position 80,54
+	Class "LoadMenu"	// uses its own implementation
+}
+
+ListMenu "SaveGameMenu"
+{
+	StaticTextCentered 160, -20, "$MNU_SAVEGAME"
+	Position 80,54
+	Class "SaveMenu"	// uses its own implementation
+}
+
+//-------------------------------------------------------------------------------------------
+//
+// PSX options menu
+//
+//-------------------------------------------------------------------------------------------
+
+ListMenu "PSXOptionsMenu"
+{
+	StaticText 122, 0, "$MNU_OPTIONS"
+	
+	Position 94, 25
+	TextItem "$MNU_CONFIG", "k", "CustomizeControls"		// Key Config
+	TextItem "$MNU_MOUSE", "m", "MouseOptions"
+	TextItem "$MNU_JOYSTICK", "c", "JoystickOptions"		// Control Pad
+	TextItem "$MNU_SOUND", "s", "SoundOptions"
+	TextItem "$MNU_VIDEO", "v", "VideoModeMenu"
+	TextItem "$MNU_ADVANCED", "a", "OptionsMenu"
+	TextItem "$MNU_MAIN", "m", "MainMenu"
+	
+}
+
+/* I originally had a bunch of minor tweaks made to the rest of the menus, but
+	I decided to remove them to maintain forward compatibility with future menu
+	changes. This way no one has to worry about updating the TC to include new
+	GZDoom options or whatever. */

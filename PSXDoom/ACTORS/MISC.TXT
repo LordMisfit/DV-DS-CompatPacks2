@@ -1,0 +1,15 @@
+// MISC //
+Actor PSXBloodyChain Replaces Archvile
+{
+	XScale 0.8
+	Radius 16
+	Height 88
+	+NOGRAVITY
+	+SPAWNCEILING
+	States
+	{
+	Spawn:
+		BLCH A -1
+		Stop
+	}
+}

@@ -1,0 +1,1812 @@
+texture FIRESK00
+pic 1 tics 2
+pic 2 tics 2
+pic 3 tics 2
+pic 4 tics 2
+pic 5 tics 2
+pic 6 tics 2
+pic 7 tics 2
+pic 8 tics 2
+pic 9 tics 2
+pic 10 tics 2
+pic 11 tics 2
+pic 12 tics 2
+pic 13 tics 2
+pic 14 tics 2
+pic 15 tics 2
+pic 16 tics 2
+pic 17 tics 2
+pic 18 tics 2
+pic 19 tics 2
+pic 20 tics 2
+pic 21 tics 2
+pic 22 tics 2
+pic 23 tics 2
+pic 24 tics 2
+pic 25 tics 2
+pic 26 tics 2
+pic 27 tics 2
+pic 28 tics 2
+pic 29 tics 2
+pic 30 tics 2
+pic 31 tics 2
+pic 32 tics 2
+pic 33 tics 2
+pic 34 tics 2
+pic 35 tics 2
+pic 36 tics 2
+pic 37 tics 2
+pic 38 tics 2
+pic 39 tics 2
+pic 40 tics 2
+pic 41 tics 2
+pic 42 tics 2
+pic 43 tics 2
+pic 44 tics 2
+pic 45 tics 2
+pic 46 tics 2
+pic 47 tics 2
+pic 48 tics 2
+pic 49 tics 2
+pic 50 tics 2
+pic 51 tics 2
+pic 52 tics 2
+pic 53 tics 2
+pic 54 tics 2
+pic 55 tics 2
+pic 56 tics 2
+pic 57 tics 2
+pic 58 tics 2
+pic 59 tics 2
+pic 60 tics 2
+pic 61 tics 2
+pic 62 tics 2
+pic 63 tics 2
+pic 64 tics 2
+pic 65 tics 2
+pic 66 tics 2
+pic 67 tics 2
+pic 68 tics 2
+pic 69 tics 2
+pic 70 tics 2
+pic 71 tics 2
+pic 72 tics 2
+pic 73 tics 2
+pic 74 tics 2
+pic 75 tics 2
+pic 76 tics 2
+pic 77 tics 2
+pic 78 tics 2
+pic 79 tics 2
+pic 80 tics 2
+pic 81 tics 2
+pic 82 tics 2
+pic 83 tics 2
+pic 84 tics 2
+pic 85 tics 2
+pic 86 tics 2
+pic 87 tics 2
+pic 88 tics 2
+pic 89 tics 2
+pic 90 tics 2
+pic 91 tics 2
+pic 92 tics 2
+pic 93 tics 2
+pic 94 tics 2
+pic 95 tics 2
+pic 96 tics 2
+pic 97 tics 2
+pic 98 tics 2
+pic 99 tics 2
+pic 100 tics 2
+
+texture 64DOOR01
+pic 1 tics 9
+pic 1 tics 9
+
+texture 64DOOR02
+pic 1 tics 9
+pic 1 tics 9
+
+texture 64DOOR03
+pic 1 tics 9
+pic 1 tics 9
+
+texture 64DOOR04
+pic 1 tics 9
+pic 1 tics 9
+
+texture 64DOOR05
+pic 1 tics 9
+pic 1 tics 9
+
+texture 64DOOR06
+pic 1 tics 9
+pic 1 tics 9
+
+texture 64DOOR07
+pic 1 tics 9
+pic 1 tics 9
+
+texture 64DOOR08
+pic 1 tics 9
+pic 1 tics 9
+
+texture 64DOOR09
+pic 1 tics 9
+pic 1 tics 9
+
+texture 64DOOR10
+pic 1 tics 9
+pic 1 tics 9
+
+texture BARS01
+pic 1 tics 9
+pic 1 tics 9
+
+texture BARS02
+pic 1 tics 9
+pic 1 tics 9
+
+texture BARS03
+pic 1 tics 9
+pic 1 tics 9
+
+texture BLUE01
+pic 1 tics 9
+pic 1 tics 9
+
+texture BOOKS01
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK01
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK02
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK03
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK04
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK05
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK06
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK08
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK09
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK10
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK11A
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK12
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK13
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK14
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK15
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK16
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRICK17
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE01
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE02
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE03
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE04
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE05
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE06
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE07
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE08
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE09
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE10
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE11
+pic 1 tics 9
+pic 1 tics 9
+
+texture BRONZE12
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN01
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN02
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN03
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN04
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN05
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN05A
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN06
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN07
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN08
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN09
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN10
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN11
+pic 1 tics 9
+pic 1 tics 9
+
+texture BROWN12
+pic 1 tics 9
+pic 1 tics 9
+
+texture CEMENT01
+pic 1 tics 9
+pic 1 tics 9
+
+texture CEMENT02
+pic 1 tics 9
+pic 1 tics 9
+
+texture CEMENT03
+pic 1 tics 9
+pic 1 tics 9
+
+texture CEMENT04
+pic 1 tics 9
+pic 1 tics 9
+
+texture CEMENT05
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP01
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP02
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP03
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP04
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP05
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP06
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP07
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP08
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP09
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP10
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP11
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP12
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP13
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP14
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP15
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP16
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP17
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP18
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP19
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMP20
+pic 1 tics 9
+pic 1 tics 9
+
+texture COMPTALL
+pic 1 tics 9
+pic 1 tics 9
+
+texture CRATE01
+pic 1 tics 9
+pic 1 tics 9
+
+texture CRATE02
+pic 1 tics 9
+pic 1 tics 9
+
+texture CRATINY
+pic 1 tics 9
+pic 1 tics 9
+
+texture DOOR01
+pic 1 tics 9
+pic 1 tics 9
+
+texture DOOR1
+pic 1 tics 9
+pic 1 tics 9
+
+texture DOOR02
+pic 1 tics 9
+pic 1 tics 9
+
+texture DOOR03
+pic 1 tics 9
+pic 1 tics 9
+
+texture DOOR3
+pic 1 tics 9
+pic 1 tics 9
+
+texture DOOR04
+pic 1 tics 9
+pic 1 tics 9
+
+texture DOOR05
+pic 1 tics 9
+pic 1 tics 9
+
+texture DOOR06
+pic 1 tics 9
+pic 1 tics 9
+
+texture ENERGY01
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+pic 4 tics 9
+
+texture EXIT
+pic 1 tics 9
+pic 1 tics 9
+
+texture FACE01
+pic 1 tics 9
+pic 1 tics 9
+
+texture FACE02
+pic 1 tics 9
+pic 1 tics 9
+
+texture FACE03
+pic 1 tics 9
+pic 1 tics 9
+
+texture FIRE01
+pic 1 tics 9
+pic 2 tics 9
+
+texture FLAME01
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+
+texture GORE01
+pic 1 tics 9
+pic 1 tics 9
+
+texture GORE02
+pic 1 tics 9
+pic 1 tics 9
+
+texture GORE03
+pic 1 tics 9
+pic 1 tics 9
+
+texture GORE04
+pic 1 tics 9
+pic 1 tics 9
+
+texture GORE05
+pic 1 tics 9
+pic 1 tics 9
+
+texture GORE06
+pic 1 tics 9
+pic 1 tics 9
+
+texture GORE07
+pic 1 tics 9
+pic 1 tics 9
+
+texture GORE08
+pic 1 tics 9
+pic 1 tics 9
+
+texture GORE09
+pic 1 tics 9
+pic 1 tics 9
+
+texture GORE10
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREEN01
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREEN02
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREEN03
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREEN04
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY01
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY02
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY03
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY04
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY05
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY06
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY07
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY12
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY14
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY16
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY17
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY18
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY19
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY21
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY22
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY23
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY24
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY25
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY26
+pic 1 tics 9
+pic 1 tics 9
+
+texture GREY27
+pic 1 tics 9
+pic 1 tics 9
+
+texture GUTS01
+pic 1 tics 9
+pic 1 tics 9
+
+texture GUTS02
+pic 1 tics 9
+pic 1 tics 9
+
+texture HEAD01
+pic 1 tics 9
+pic 1 tics 9
+
+texture HEAD02
+pic 1 tics 9
+pic 1 tics 9
+
+texture HEAD03
+pic 1 tics 9
+pic 1 tics 9
+
+texture HEAD04
+pic 1 tics 9
+pic 1 tics 9
+
+texture HEAD05
+pic 1 tics 9
+pic 1 tics 9
+
+texture HEAD06
+pic 1 tics 9
+pic 1 tics 9
+
+texture IDWALL
+pic 1 tics 9
+pic 1 tics 9
+
+texture LAVAW01
+pic 1 tics 9
+pic 1 tics 9
+
+texture LAVAW02
+pic 1 tics 9
+pic 1 tics 9
+
+texture LAVWAL01
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+
+texture LITE01
+pic 1 tics 9
+pic 1 tics 9
+
+texture LITE02
+pic 1 tics 9
+pic 1 tics 9
+
+texture LOCKBLU1
+pic 1 tics 9
+pic 1 tics 9
+
+texture LOCKBLU2
+pic 1 tics 9
+pic 1 tics 9
+
+texture LOCKRED1
+pic 1 tics 9
+pic 1 tics 9
+
+texture LOCKRED2
+pic 1 tics 9
+pic 1 tics 9
+
+texture LOCKYEL1
+pic 1 tics 9
+pic 1 tics 9
+
+texture LOCKYEL2
+pic 1 tics 9
+pic 1 tics 9
+
+texture MARBLE01
+pic 1 tics 9
+pic 1 tics 9
+
+texture MARBLE02
+pic 1 tics 9
+pic 1 tics 9
+
+texture MARBLE03
+pic 1 tics 9
+pic 1 tics 9
+
+texture MARBLE04
+pic 1 tics 9
+pic 1 tics 9
+
+texture MARBLE05
+pic 1 tics 9
+pic 1 tics 9
+
+texture MARBLE06
+pic 1 tics 9
+pic 1 tics 9
+
+texture MARBLE08
+pic 1 tics 9
+pic 1 tics 9
+
+texture MARBLE09
+pic 1 tics 9
+pic 1 tics 9
+
+texture MARBLE10
+pic 1 tics 9
+pic 1 tics 9
+
+texture MARBLE11
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL01
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL02
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL03
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL04
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL05
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL06
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL07
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL08
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL09
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL10
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL11
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL12
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL13
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL14
+pic 1 tics 9
+pic 1 tics 9
+
+texture METAL15
+pic 1 tics 9
+pic 1 tics 9
+
+texture NUKE24
+pic 1 tics 9
+pic 1 tics 9
+
+texture PIPE01
+pic 1 tics 9
+pic 1 tics 9
+
+texture PIPE02
+pic 1 tics 9
+pic 1 tics 9
+
+texture PIPE04
+pic 1 tics 9
+pic 1 tics 9
+
+texture PIPE05
+pic 1 tics 9
+pic 1 tics 9
+
+texture PIPE06
+pic 1 tics 9
+pic 1 tics 9
+
+texture PIPE07
+pic 1 tics 9
+pic 1 tics 9
+
+texture PIPE08
+pic 1 tics 9
+pic 1 tics 9
+
+texture PLAST01
+pic 1 tics 9
+pic 1 tics 9
+
+texture PLAST02
+pic 1 tics 9
+pic 1 tics 9
+
+texture PLAT01
+pic 1 tics 9
+pic 1 tics 9
+
+texture REDBR01
+pic 1 tics 9
+pic 1 tics 9
+
+texture REDROK01
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK01
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK02
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK03
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK04
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK05
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK06
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK07
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK08
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK09
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK10
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK11
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK12
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK13
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK14
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK15
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK16
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK17
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK18
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK19
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK20
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK21
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK22
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK23
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK24
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCK25
+pic 1 tics 9
+pic 1 tics 9
+
+texture ROCKS
+pic 1 tics 9
+pic 1 tics 9
+
+texture SFALL1
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+pic 4 tics 9
+
+texture SKIN01
+pic 1 tics 9
+pic 1 tics 9
+
+texture SKIN02
+pic 1 tics 9
+pic 1 tics 9
+
+texture SKIN03
+pic 1 tics 9
+pic 1 tics 9
+
+texture SKIN04
+pic 1 tics 9
+pic 1 tics 9
+
+texture SKIN05
+pic 1 tics 9
+pic 1 tics 9
+
+texture SKIN06
+pic 1 tics 9
+pic 1 tics 9
+
+texture SKIN07
+pic 1 tics 9
+pic 1 tics 9
+
+texture SKIN08
+pic 1 tics 9
+pic 1 tics 9
+
+texture SKIN09
+pic 1 tics 9
+pic 1 tics 9
+
+texture SLIM01
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+pic 4 tics 9
+
+texture STEEL01
+pic 1 tics 9
+pic 1 tics 9
+
+texture STEEL02
+pic 1 tics 9
+pic 1 tics 9
+
+texture STEEL03
+pic 1 tics 9
+pic 1 tics 9
+
+texture STEEL04
+pic 1 tics 9
+pic 1 tics 9
+
+texture STEEL05
+pic 1 tics 9
+pic 1 tics 9
+
+texture STEEL06
+pic 1 tics 9
+pic 1 tics 9
+
+texture STEEL07
+pic 1 tics 9
+pic 1 tics 9
+
+texture STEP6
+pic 1 tics 9
+pic 1 tics 9
+
+texture STONE01
+pic 1 tics 9
+pic 1 tics 9
+
+texture STONE02
+pic 1 tics 9
+pic 1 tics 9
+
+texture STONE03
+pic 1 tics 9
+pic 1 tics 9
+
+texture STONE04
+pic 1 tics 9
+pic 1 tics 9
+
+texture SUPPORT1
+pic 1 tics 9
+pic 1 tics 9
+
+texture TVSNOW01
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+
+texture WALL01
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL02
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL03
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL04
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL05
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL06
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL07
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL08
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL09
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL10
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL11
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL12
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL13
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL14
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL15
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL16
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL17
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL18
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL19
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL20
+pic 1 tics 9
+pic 1 tics 9
+
+texture WALL21
+pic 1 tics 9
+pic 1 tics 9
+
+texture WARN01
+pic 1 tics 9
+pic 2 tics 9
+
+texture WINDOW01
+pic 1 tics 9
+pic 1 tics 9
+
+texture WINDOW02
+pic 1 tics 9
+pic 1 tics 9
+
+texture WINDOW03
+pic 1 tics 9
+pic 1 tics 9
+
+texture WINDOW04
+pic 1 tics 9
+pic 1 tics 9
+
+texture WINDOW05
+pic 1 tics 9
+pic 1 tics 9
+
+texture WINDOW06
+pic 1 tics 9
+pic 1 tics 9
+
+texture WINDOW07
+pic 1 tics 9
+pic 1 tics 9
+
+texture WINDOW08
+pic 1 tics 9
+pic 1 tics 9
+
+texture WINDOW09
+pic 1 tics 9
+pic 1 tics 9
+
+texture WINDOW10
+pic 1 tics 9
+pic 1 tics 9
+
+texture WMSWALL
+pic 1 tics 9
+pic 1 tics 9
+
+texture WOOD01
+pic 1 tics 9
+pic 1 tics 9
+
+texture WOOD02
+pic 1 tics 9
+pic 1 tics 9
+
+texture WOOD03
+pic 1 tics 9
+pic 1 tics 9
+
+texture WOOD04
+pic 1 tics 9
+pic 1 tics 9
+
+texture WOOD06
+pic 1 tics 9
+pic 1 tics 9
+
+texture WOOD07
+pic 1 tics 9
+pic 1 tics 9
+
+texture WOOD08
+pic 1 tics 9
+pic 1 tics 9
+
+texture WOOD09
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRIK01
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRIK03
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRIK04
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRIK05
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRIK06
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRIK08
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRIK09
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN01
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN02
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN03
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN04
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN05
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN06
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN07
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN08
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN09
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN10
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN11
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN12
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN13
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN14
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN15
+pic 1 tics 9
+pic 1 tics 9
+
+flat BRN16
+pic 1 tics 9
+pic 1 tics 9
+
+flat BSLIME01
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+pic 4 tics 9
+
+flat CARPET01
+pic 1 tics 9
+pic 1 tics 9
+
+flat CLUBTILE
+pic 1 tics 9
+pic 1 tics 9
+
+flat CMENT
+pic 1 tics 9
+pic 1 tics 9
+
+flat CSLIME01
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+pic 4 tics 9
+
+flat ENERG01
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+pic 4 tics 9
+
+flat GATE01
+pic 1 tics 9
+pic 1 tics 9
+
+flat GATE02
+pic 1 tics 9
+pic 1 tics 9
+
+flat GATE03
+pic 1 tics 9
+pic 1 tics 9
+
+flat GATE04
+pic 1 tics 9
+pic 1 tics 9
+
+flat GATE05
+pic 1 tics 9
+pic 1 tics 9
+
+flat GLOW01
+pic 2 tics 9
+pic 3 tics 9
+pic 4 tics 9
+pic 3 tics 9
+
+flat GLOW02
+pic 1 tics 9
+pic 1 tics 9
+
+flat GLOW03
+pic 1 tics 9
+pic 1 tics 9
+
+flat GLOW04
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRASS01
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRASS02
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRASS03
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRASS04
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRATE
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRAY01
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRAY02
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRAY03
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRAY04
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRAY05
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRAY06
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRAY07
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRAY08
+pic 1 tics 9
+pic 1 tics 9
+
+flat GRNLITE1
+pic 1 tics 9
+pic 1 tics 9
+
+flat GUT01
+pic 1 tics 9
+pic 1 tics 9
+
+flat GUT02
+pic 1 tics 9
+pic 1 tics 9
+
+flat LAVA01
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+pic 4 tics 9
+
+flat LIGHT01
+pic 1 tics 9
+pic 1 tics 9
+
+flat LIGHT02
+pic 1 tics 9
+pic 1 tics 9
+
+flat LIGHT03
+pic 1 tics 9
+pic 1 tics 9
+
+flat LIGHT04
+pic 1 tics 9
+pic 1 tics 9
+
+flat LIGHT05
+pic 1 tics 9
+pic 1 tics 9
+
+flat LIGHT06
+pic 1 tics 9
+pic 1 tics 9
+
+flat MARB01
+pic 1 tics 9
+pic 1 tics 9
+
+flat MET01
+pic 1 tics 9
+pic 1 tics 9
+
+flat MET02
+pic 1 tics 9
+pic 1 tics 9
+
+flat MET03
+pic 1 tics 9
+pic 1 tics 9
+
+flat MET04
+pic 1 tics 9
+pic 1 tics 9
+
+flat MET05
+pic 1 tics 9
+pic 1 tics 9
+
+flat METX01
+pic 1 tics 9
+pic 1 tics 9
+
+flat METX02
+pic 1 tics 9
+pic 1 tics 9
+
+flat METX03
+pic 1 tics 9
+pic 1 tics 9
+
+flat RED
+pic 1 tics 9
+pic 1 tics 9
+
+flat ROK01
+pic 1 tics 9
+pic 1 tics 9
+
+flat ROK02
+pic 1 tics 9
+pic 1 tics 9
+
+flat ROK03
+pic 1 tics 9
+pic 1 tics 9
+
+flat ROK04
+pic 1 tics 9
+pic 1 tics 9
+
+flat ROK05
+pic 1 tics 9
+pic 1 tics 9
+
+flat ROK06
+pic 1 tics 9
+pic 1 tics 9
+
+flat ROK07
+pic 1 tics 9
+pic 1 tics 9
+
+flat ROK08
+pic 1 tics 9
+pic 1 tics 9
+
+flat SLIME01
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+
+flat STEEL
+pic 1 tics 9
+pic 1 tics 9
+
+flat STEP01
+pic 1 tics 9
+pic 1 tics 9
+
+flat STEP02
+pic 1 tics 9
+pic 1 tics 9
+
+flat TILE01
+pic 1 tics 9
+pic 1 tics 9
+
+flat TILE02
+pic 1 tics 9
+pic 1 tics 9
+
+flat TILE03
+pic 1 tics 9
+pic 1 tics 9
+
+flat TILE04
+pic 1 tics 9
+pic 1 tics 9
+
+flat TILE05
+pic 1 tics 9
+pic 1 tics 9
+
+flat TILE06
+pic 1 tics 9
+pic 1 tics 9
+
+flat TILE07
+pic 1 tics 9
+pic 1 tics 9
+
+flat TILE08
+pic 1 tics 9
+pic 1 tics 9
+
+flat TILE09
+pic 1 tics 9
+pic 1 tics 9
+
+flat WATER01
+pic 1 tics 9
+pic 2 tics 9
+pic 3 tics 9
+pic 4 tics 9
+
+flat WMSGATE
+pic 1 tics 9
+pic 1 tics 9
+
+flat WOODX01
+pic 1 tics 9
+pic 1 tics 9
+
+flat WOODX02
+pic 1 tics 9
+pic 1 tics 9
+
+switch SW1BMET on sound switch1 pic SW2BMET tics 0
+switch SW2BMET off sound switch2 pic SW1BMET tics 0
+
+switch SW1BRICK on sound switch1 pic SW2BRICK tics 0
+switch SW2BRICK off sound switch2 pic SW1BRICK tics 0
+
+switch SW1BRNZ on sound switch1 pic SW2BRNZ tics 0
+switch SW2BRNZ off sound switch2 pic SW1BRNZ tics 0
+
+switch SW1BROWN on sound switch1 pic SW2BROWN tics 0
+switch SW2BROWN off sound switch2 pic SW1BROWN tics 0
+
+switch SW1MARB on sound switch1 pic SW2MARB tics 0
+switch SW2MARB off sound switch2 pic SW1MARB tics 0
+
+switch SW1MET on sound switch1 pic SW2MET tics 0
+switch SW2MET off sound switch2 pic SW1MET tics 0
+
+switch SW1METAL on sound switch1 pic SW2METAL tics 0
+switch SW2METAL off sound switch2 pic SW1METAL tics 0
+
+switch SW1NEW02 on sound switch1 pic SW2NEW02 tics 0
+switch SW2NEW02 off sound switch2 pic SW1NEW02 tics 0
+
+switch SW1NEW03 on sound switch1 pic SW2NEW03 tics 0
+switch SW2NEW03 off sound switch2 pic SW1NEW03 tics 0
+
+switch SW1NEW04 on sound switch1 pic SW2NEW04 tics 0
+switch SW2NEW04 off sound switch2 pic SW1NEW04 tics 0
+
+switch SW1NEW05 on sound switch1 pic SW2NEW05 tics 0
+switch SW2NEW05 off sound switch2 pic SW1NEW05 tics 0
+
+switch SW1NEW06 on sound switch1 pic SW2NEW06 tics 0
+switch SW2NEW06 off sound switch2 pic SW1NEW06 tics 0
+
+switch SW1NEW10 on sound switch1 pic SW2NEW10 tics 0
+switch SW2NEW10 off sound switch2 pic SW1NEW10 tics 0
+
+switch SW1NEW11 on sound switch1 pic SW2NEW11 tics 0
+switch SW2NEW11 off sound switch2 pic SW1NEW11 tics 0
+
+switch SW1NEW13 on sound switch1 pic SW2NEW13 tics 0
+switch SW2NEW13 off sound switch2 pic SW1NEW13 tics 0
+
+switch SW1NEW14 on sound switch1 pic SW2NEW14 tics 0
+switch SW2NEW14 off sound switch2 pic SW1NEW14 tics 0
+
+switch SW1NEW20 on sound switch1 pic SW2NEW20 tics 0
+switch SW2NEW20 off sound switch2 pic SW1NEW20 tics 0
+
+switch SW1NEW25 on sound switch1 pic SW2NEW25 tics 0
+switch SW2NEW25 off sound switch2 pic SW1NEW25 tics 0
+
+switch SW1NEW26 on sound switch1 pic SW2NEW26 tics 0
+switch SW2NEW26 off sound switch2 pic SW1NEW26 tics 0
+
+switch SW1NEW28 on sound switch1 pic SW2NEW28 tics 0
+switch SW2NEW28 off sound switch2 pic SW1NEW28 tics 0
+
+switch SW1NEW29 on sound switch1 pic SW2NEW29 tics 0
+switch SW2NEW29 off sound switch2 pic SW1NEW29 tics 0
+
+switch SW1NEW30 on sound switch1 pic SW2NEW30 tics 0
+switch SW2NEW30 off sound switch2 pic SW1NEW30 tics 0
+
+switch SW1NEW31 on sound switch1 pic SW2NEW31 tics 0
+switch SW2NEW31 off sound switch2 pic SW1NEW31 tics 0
+
+switch SW1NEW32 on sound switch1 pic SW2NEW32 tics 0
+switch SW2NEW32 off sound switch2 pic SW1NEW32 tics 0
+
+switch SW1NEW33 on sound switch1 pic SW2NEW33 tics 0
+switch SW2NEW33 off sound switch2 pic SW1NEW33 tics 0
+
+switch SW1NEW34 on sound switch1 pic SW2NEW34 tics 0
+switch SW2NEW34 off sound switch2 pic SW1NEW34 tics 0
+
+switch SW1NEW35 on sound switch1 pic SW2NEW35 tics 0
+switch SW2NEW35 off sound switch2 pic SW1NEW35 tics 0
+
+switch SW1NEW36 on sound switch1 pic SW2NEW36 tics 0
+switch SW2NEW36 off sound switch2 pic SW1NEW36 tics 0
+
+switch SW1NEW39 on sound switch1 pic SW2NEW39 tics 0
+switch SW2NEW39 off sound switch2 pic SW1NEW39 tics 0
+
+switch SW1NEW40 on sound switch1 pic SW2NEW40 tics 0
+switch SW2NEW40 off sound switch2 pic SW1NEW40 tics 0
+
+switch SW1NEW41 on sound switch1 pic SW2NEW41 tics 0
+switch SW2NEW41 off sound switch2 pic SW1NEW41 tics 0
+
+switch SW1NEW42 on sound switch1 pic SW2NEW42 tics 0
+switch SW2NEW42 off sound switch2 pic SW1NEW42 tics 0
+
+switch SW1NEW45 on sound switch1 pic SW2NEW45 tics 0
+switch SW2NEW45 off sound switch2 pic SW1NEW45 tics 0
+
+switch SW1NEW46 on sound switch1 pic SW2NEW46 tics 0
+switch SW2NEW46 off sound switch2 pic SW1NEW46 tics 0
+
+switch SW1NEW47 on sound switch1 pic SW2NEW47 tics 0
+switch SW2NEW47 off sound switch2 pic SW1NEW47 tics 0
+
+switch SW1NEW51 on sound switch1 pic SW2NEW51 tics 0
+switch SW2NEW51 off sound switch2 pic SW1NEW51 tics 0
+
+switch SW1NEW57 on sound switch1 pic SW2NEW57 tics 0
+switch SW2NEW57 off sound switch2 pic SW1NEW57 tics 0
+
+switch SW1NEW60 on sound switch1 pic SW2NEW60 tics 0
+switch SW2NEW60 off sound switch2 pic SW1NEW60 tics 0
+
+switch SW1NEW63 on sound switch1 pic SW2NEW63 tics 0
+switch SW2NEW63 off sound switch2 pic SW1NEW63 tics 0
+
+switch SW1NEW65 on sound switch1 pic SW2NEW65 tics 0
+switch SW2NEW65 off sound switch2 pic SW1NEW65 tics 0
+
+switch SW1NEW66 on sound switch1 pic SW2NEW66 tics 0
+switch SW2NEW66 off sound switch2 pic SW1NEW66 tics 0
+
+switch SW1NEW68 on sound switch1 pic SW2NEW68 tics 0
+switch SW2NEW68 off sound switch2 pic SW1NEW68 tics 0
+
+switch SW1NEW69 on sound switch1 pic SW2NEW69 tics 0
+switch SW2NEW69 off sound switch2 pic SW1NEW69 tics 0
+
+switch SW1NEW70 on sound switch1 pic SW2NEW70 tics 0
+switch SW2NEW70 off sound switch2 pic SW1NEW70 tics 0
+
+switch SW1RED on sound switch1 pic SW2RED tics 0
+switch SW2RED off sound switch2 pic SW1RED tics 0
+
+switch SW1RUST on sound switch1 pic SW2RUST tics 0
+switch SW2RUST off sound switch2 pic SW1RUST tics 0
+
+switch SW1SKULL on sound switch1 pic SW2SKULL tics 0
+switch SW2SKULL off sound switch2 pic SW1SKULL tics 0
+
+switch SW1SKUL2 on sound switch1 pic SW2SKUL2 tics 0
+switch SW2SKUL2 off sound switch2 pic SW1SKUL2 tics 0
+
+switch SW1STAR on sound switch1 pic SW2STAR tics 0
+switch SW2STAR off sound switch2 pic SW1STAR tics 0
+
+switch SW1STEEL on sound switch1 pic SW2STEEL tics 0
+switch SW2STEEL off sound switch2 pic SW1STEEL tics 0
+
+flat	BLOOD1  	range	BLOOD3  	tics 9
+flat	FWATER1 	range	FWATER4 	tics 9
+flat	LAVA1   	range	LAVA4		tics 9
+flat	NUKAGE1 	range	NUKAGE3 	tics 9
+flat	SLIME01 	range	SLIME04 	tics 9
+flat	SLIME05 	range	SLIME08 	tics 9
+flat	SLIME09 	range	SLIME12 	tics 9
+texture	BFALL1  	range	BFALL4  	tics 9
+texture	BLODRIP1	range	BLODRIP4	tics 9
+texture	DBRAIN1 	range	DBRAIN4 	tics 9
+texture	FIREBLU1	range	FIREBLU2	tics 9
+texture	FIRELAV3	range	FIRELAVA	tics 9
+texture	FIREMAG1	range	FIREMAG3	tics 9
+texture	FIREWALA	range	FIREWALL	tics 9
+texture	GSTFONT1	range	GSTFONT3	tics 9
+texture	ROCKRED1	range	ROCKRED3	tics 9
+texture	SFALL1  	range	SFALL4  	tics 9
+texture	WFALL1  	range	WFALL4  	tics 9

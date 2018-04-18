@@ -1,0 +1,24 @@
+// Updated definitions and sprites from PSXDOOM_UPDATE_01.PK3 by unknownna
+#Include "ACTORS/MISC.TXT"
+#Include "ACTORS/DECORATION.TXT"
+#Include "ACTORS/ITEMS.TXT"
+
+Actor IsFinalDoom : Inventory
+{
+	Inventory.MaxAmount 1
+}
+
+actor PSXBossEye : BossEye replaces BossEye
+{
+  DropItem "DoomImp" 		255 50
+  DropItem "Demon"		255 40
+  DropItem "Spectre"		255 30
+  DropItem "PainElemental"	255 10
+  DropItem "Cacodemon"		255 30
+  DropItem "PSXNightmareSpectreReplaces"		255  30
+  DropItem "Revenant"		255 10
+  DropItem "Arachnotron"	255 20
+  DropItem "Fatso"		255 30
+  DropItem "HellKnight"		255 24
+  DropItem "BaronOfHell"	255 10
+}
