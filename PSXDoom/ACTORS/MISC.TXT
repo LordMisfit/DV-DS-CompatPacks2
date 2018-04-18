@@ -1,7 +1,7 @@
-// MISC //
+// Updated definitions and sprites from PSXDOOM_UPDATE_01.PK3 by unknownna
 Actor PSXBloodyChain Replaces Archvile
 {
-	XScale 0.8
+	Scale 0.92
 	Radius 16
 	Height 88
 	+NOGRAVITY
@@ -13,3 +13,5 @@ Actor PSXBloodyChain Replaces Archvile
 		Stop
 	}
 }
+
+Actor YoPretendImADemon : Spectre 3000 { }

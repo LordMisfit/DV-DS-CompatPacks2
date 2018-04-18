@@ -41,6 +41,12 @@ Episode LOST01
 	Key  = "l"
 }
 
+// Remove the Archvile at the editornumber level, JUST TO BE SURE
+DoomEdNums
+{
+	64 = PSXBloodyChain
+}
+
 ClearSkills
 Skill Baby
 {
