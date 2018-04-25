@@ -13,5 +13,3 @@ Actor PSXBloodyChain Replaces Archvile
 		Stop
 	}
 }
-
-Actor YoPretendImADemon : Spectre 3000 { }

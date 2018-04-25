@@ -10,76 +10,17 @@ GameInfo
 }
 
 ClearEpisodes
-Episode MAP01
+Episode MAPP0
 {
-	Name = "$MNU_DOOM"
-}
-
-Episode MAP31
-{
-	Name = "$MNU_DOOM2"
-}
-
-Episode MAP61
-{
-	Name = "$MNU_MASTER"
-}
-
-Episode MAP74
-{
-	Name = "$MNU_TNT"
-}
-
-Episode MAP85
-{
-	Name = "$MNU_PLUTONIA"
-}
-
-Episode LOST01
-{ 
-	Name = "$MNU_LOSTLEV"
-	Key  = "l"
+  name = "PSXDoom [The Full Monty]"
+  key = "D"
 }
 
 // Remove the Archvile at the editornumber level, JUST TO BE SURE
 DoomEdNums
 {
 	64 = PSXBloodyChain
-}
-
-ClearSkills
-Skill Baby
-{
-	SpawnFilter = Baby
-	Name = "$SKILL_BABY"
-	Key = "i"
-	EasyBossBrain
-	AutoUseHealth
-	AmmoFactor = 2
-	DamageFactor = 0.5
-}
-
-Skill Easy
-{
-	SpawnFilter = Easy
-	Name = "$SKILL_EASY"
-	Key = "n"
-	EasyBossBrain
-}
-
-Skill Normal
-{
-	SpawnFilter = Normal
-	Name = "$SKILL_NORMAL"
-	Key = "h"
-	DefaultSkill
-}
-
-Skill Hard
-{
-	SpawnFilter = Hard
-	Name = "$SKILL_HARD"
-	Key = "u"
+	3000 = YoPretendImADemon
 }
 
 Automap
@@ -92,6 +33,16 @@ AddDefaultMap
 {	
 	Cluster = 1
 	Sky1 = "SKY01"
+}
+
+map MAPP0 "Skip Map"
+{
+ levelnum = 1039
+ next = "map01"
+ cluster = 3232
+ par = 1
+ sucktime = 1
+ NoIntermission
 }
 
 Map MAP01 Lookup "HUSTR_1"
