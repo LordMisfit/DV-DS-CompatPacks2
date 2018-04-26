@@ -1429,6 +1429,7 @@ AddDefaultMap
 
 Map LOST68 lookup "LHUSTR_68"
 {
+	levelnum = 162
 	Music = "$LMAPMUS_68" 
 	Sky1  = "FIRESK00" 
 	Next  = "LOST20" 
@@ -1436,6 +1437,7 @@ Map LOST68 lookup "LHUSTR_68"
 
 Map LOST69 lookup "LHUSTR_69"
 {
+	levelnum = 163
 	Music      = "$LMAPMUS_69" 
 	Sky1       = "SKY08" 
 	Next       = "LOST30" 
@@ -1444,6 +1446,7 @@ Map LOST69 lookup "LHUSTR_69"
 
 Map LOST70 lookup "LHUSTR_70"
 {
+	levelnum = 164
 	Music = "$LMAPMUS_70" 
 	Sky1  = "SKY08" 
 	Next  = "LOST30" 
@@ -1451,6 +1454,7 @@ Map LOST70 lookup "LHUSTR_70"
 
 Map LOST71 lookup "LHUSTR_71"
 {
+	levelnum = 165
 	Music      = "$LMAPMUS_71" 
 	Sky1       = "SKY03" 
 	Next       = "LOST48"
@@ -1459,6 +1463,7 @@ Map LOST71 lookup "LHUSTR_71"
 
 Map LOST72 lookup "LHUSTR_72"
 {
+	levelnum = 166
 	Music = "$LMAPMUS_72" 
 	Sky1  = "FIRESK00" 
 	Next  = "LOST48" 
@@ -1466,7 +1471,8 @@ Map LOST72 lookup "LHUSTR_72"
 
 Map LOST73 lookup "LHUSTR_73"
 {
-   	Music = "$LMAPMUS_73"
+	levelnum = 167
+ 	Music = "$LMAPMUS_73"
 	Sky1  = "FIRESK00" 
 	Next  = "LOST27" 
 }
