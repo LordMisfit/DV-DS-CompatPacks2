@@ -1,5 +1,5 @@
 // Updated definitions and sprites from PSXDOOM_UPDATE_01.PK3 by unknownna
-Actor PSXBloodyChain Replaces Archvile
+Actor PSXBloodyChain Replaces ArchvileSpawner
 {
 	Scale 0.92
 	Radius 16
