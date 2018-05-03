@@ -21,6 +21,9 @@ DoomEdNums
 {
 	64 = PSXBloodyChain
 	3000 = YoPretendImADemon
+	3007 = YoPretendImANightmareImp
+	3010 = YoPretendImAnotherDemon
+	3011 = YoPretendImACacodemon
 }
 
 Automap
@@ -791,7 +794,7 @@ Map MAP90 Lookup "FHUSTR_30"
 	Next = "D5END"
 }
 
-Map D5END ""
+Map D5END lookup "LHUSTR_1"
 {
 	Music = "$DEND_5"
 	NoIntermission

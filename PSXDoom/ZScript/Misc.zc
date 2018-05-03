@@ -25,3 +25,27 @@ class YoPretendImADemon : RandomSpawner // AetheriusMonsterSpawner
 	}
 */
 }
+
+class YoPretendImAnotherDemon : YoPretendImADemon
+{
+}
+
+class YoPretendImACacodemon : RandomSpawner
+{
+	Default
+	{
+		DropItem "Cacodemon", 255, 240;
+		DropItem "PainElemental", 255, 16;
+	}
+}
+
+class YoPretendImANightmareImp : RandomSpawner
+{
+	Default
+	{
+		DropItem "DarkImp", 255, 75;
+		DropItem "STDarkImp", 255, 75;
+		DropItem "VoidDarkImp", 255, 75;
+		DropItem "NetherDarkImp", 255, 25;
+	}
+}
