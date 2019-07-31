@@ -5,25 +5,6 @@ class YoPretendImADemon : RandomSpawner // AetheriusMonsterSpawner
 		DropItem "BloodSpectre", 255, 240;
 		DropItem "ChaingunSpectre", 255, 16;
 	}
-/*
-	override Class<Actor> ChooseWhatToSpawn()
-	{
-		let modtype = CallACS("CheckModType");
-		let evolvechance = CallACS("GetEvolveChance");
-		let monstersoption = CallACS("CheckDVIIMonstersOption");
-		let checkbombers = CallACS("CheckBombersOption");
-		
-		if (random(1,256) <= 16 && modtype == 0 && monstersoption == 1)
-			return "HellCleric";
-		else if (random(1,256) <= evolvechance) // Demons
-		{
-			if (random(1,8) <= 1)
-				return "ChaingunSpectre";
-			else
-				return "BloodSpectre";
-		}
-	}
-*/
 }
 
 class YoPretendImAnotherDemon : YoPretendImADemon

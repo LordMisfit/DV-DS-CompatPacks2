@@ -15,7 +15,7 @@ actor PSXBossEye : BossEye replaces BossEye
   DropItem "Spectre"		255 30
   DropItem "PainElemental"	255 10
   DropItem "Cacodemon"		255 30
-  DropItem "PSXNightmareSpectreReplaces"		255  30
+  DropItem "PSXNightmareSpectre"		255  30
   DropItem "Revenant"		255 10
   DropItem "Arachnotron"	255 20
   DropItem "Fatso"		255 30
