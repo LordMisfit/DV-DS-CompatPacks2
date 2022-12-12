@@ -799,7 +799,6 @@ Map D5END lookup "LHUSTR_1"
 	Music = "$DEND_5"
 	NoIntermission
 	NoAutoSaveHint
-	ResetHealth
 	Next = "LOST01"
 }
 
