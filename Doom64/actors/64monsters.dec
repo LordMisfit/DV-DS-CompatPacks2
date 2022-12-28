@@ -4,25 +4,25 @@ Actor DSZombieman64 : DSZombieman Replaces DSZombieman
 	Height 80
 	States
 	{
-   TracerBullet:
-     POSS F 0
-		 {
-			A_FaceTarget;
-			A_SetUserVar("user_canusecrisisatk",0);
-			if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-      if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-			if(user_canusecrisisatk == 1)
+		TracerBullet:
+			POSS F 0
 			{
-       A_PlaySound("crisisattack",6);
-       A_PlaySound("crisisattack2",7);
-       A_CustomMissile("ZombieBulletTracerCrisis", 64, 12, frandom(user_shotaccuracy1,user_shotaccuracy2), CMF_OFFSETPITCH, frandom(user_shotzaccuracy1,user_shotzaccuracy2));
+				A_FaceTarget;
+				A_SetUserVar("user_canusecrisisatk",0);
+				if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+				if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+				if (user_canusecrisisatk == 1)
+				{
+					A_PlaySound("crisisattack",6);
+					A_PlaySound("crisisattack2",7);
+					A_CustomMissile("ZombieBulletTracerCrisis", 64, 12, frandom(user_shotaccuracy1,user_shotaccuracy2), CMF_OFFSETPITCH, frandom(user_shotzaccuracy1,user_shotzaccuracy2));
+				}
+				else
+				{
+					A_CustomMissile("ZombieBulletTracer", 64, 12, frandom(user_shotaccuracy1,user_shotaccuracy2), CMF_OFFSETPITCH, frandom(user_shotzaccuracy1,user_shotzaccuracy2));
+				}
 			}
-			else
-			{
-       A_CustomMissile("ZombieBulletTracer", 64, 12, frandom(user_shotaccuracy1,user_shotaccuracy2), CMF_OFFSETPITCH, frandom(user_shotzaccuracy1,user_shotzaccuracy2));
-			}
-		 }
-     goto EndMissile
+			goto EndMissile
 		Pain.Vertigo:
 			POSS G 0 ThrustThingZ(0, 55, 0, 0)
 			POSS G 3
@@ -159,9 +159,9 @@ Actor DSRocketLauncherGuy64 : RocketLauncherGuy Replaces RocketLauncherGuy
 			MPO2 F 10 bright
 			{
 				A_SetUserVar("user_canusecrisisatk",0);
-				if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-				if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-				if(user_canusecrisisatk == 1)
+				if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+				if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+				if (user_canusecrisisatk == 1)
 				{
 					A_PlaySound("crisisattack",6);
 					A_PlaySound("crisisattack2",7);
@@ -279,9 +279,9 @@ Actor DSRepeaterZombie64 : RepeaterZombie Replaces RepeaterZombie
 				if (ACS_NamedExecuteWithResult("CheckHitscanType") == 0)
 				{
 					A_SetUserVar("user_canusecrisisatk",0);
-					if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-					if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-					if(user_canusecrisisatk == 1)
+					if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+					if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+					if (user_canusecrisisatk == 1)
 					{
 						A_PlaySound("crisisattack",6);
 						A_PlaySound("crisisattack2",7);
@@ -295,9 +295,9 @@ Actor DSRepeaterZombie64 : RepeaterZombie Replaces RepeaterZombie
 				else
 				{
 					A_SetUserVar("user_canusecrisisatk",0);
-					if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-					if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-					if(user_canusecrisisatk == 1)
+					if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+					if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+					if (user_canusecrisisatk == 1)
 					{
 						A_PlaySound("crisisattack",6);
 						A_PlaySound("crisisattack2",7);
@@ -320,9 +320,9 @@ Actor DSRepeaterZombie64 : RepeaterZombie Replaces RepeaterZombie
 				if (ACS_NamedExecuteWithResult("CheckHitscanType") == 0)
 				{
 					A_SetUserVar("user_canusecrisisatk",0);
-					if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-					if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-					if(user_canusecrisisatk == 1)
+					if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+					if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+					if (user_canusecrisisatk == 1)
 					{
 						A_PlaySound("crisisattack",6);
 						A_PlaySound("crisisattack2",7);
@@ -336,9 +336,9 @@ Actor DSRepeaterZombie64 : RepeaterZombie Replaces RepeaterZombie
 				else
 				{
 					A_SetUserVar("user_canusecrisisatk",0);
-					if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-					if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-					if(user_canusecrisisatk == 1)
+					if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+					if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+					if (user_canusecrisisatk == 1)
 					{
 						A_PlaySound("crisisattack",6);
 						A_PlaySound("crisisattack2",7);
@@ -427,9 +427,9 @@ Actor DSKarasawaGuy64 : KarasawaGuy Replaces KarasawaGuy
 			KSWZ F 10 Bright
 			{
 				A_SetUserVar("user_canusecrisisatk",0);
-				if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-				if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-				if(user_canusecrisisatk == 1)
+				if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+				if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+				if (user_canusecrisisatk == 1)
 				{
 					A_PlaySound("crisisattack",6);
 					A_PlaySound("crisisattack2",7);
@@ -541,9 +541,9 @@ Actor DSShotgunguy64 : DSShotgunguy Replaces DSShotgunguy
 				if (ACS_NamedExecuteWithResult("CheckShotgunnerSpreads") == 0) { A_SetUserVar("user_pelletsfired",3); } else { A_SetUserVar("user_pelletsfired",7); }
 
 				A_SetUserVar("user_canusecrisisatk",0);
-				if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-				if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-				if(user_canusecrisisatk == 1)
+				if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+				if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+				if (user_canusecrisisatk == 1)
 				{
 					A_PlaySound("crisisattack",6);
 					A_PlaySound("crisisattack2",7);
@@ -628,9 +628,9 @@ Actor DSSuperShotgunGuy64 : SuperShotgunGuy Replaces SuperShotgunGuy
 				if (ACS_NamedExecuteWithResult("CheckShotgunnerSpreads") == 0) { A_SetUserVar("user_pelletsfired",7); } else { A_SetUserVar("user_pelletsfired",20); }
 
 				A_SetUserVar("user_canusecrisisatk",0);
-				if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-				if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-				if(user_canusecrisisatk == 1)
+				if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+				if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+				if (user_canusecrisisatk == 1)
 				{
 					A_PlaySound("crisisattack",6);
 					A_PlaySound("crisisattack2",7);
@@ -722,9 +722,9 @@ Actor DSChaingunguy64 : DSChaingunguy Replaces DsChaingunguy
 				if (ACS_NamedExecuteWithResult("CheckHitscanType") == 0)
 				{
 					A_SetUserVar("user_canusecrisisatk",0);
-					if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-					if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-					if(user_canusecrisisatk == 1)
+					if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+					if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+					if (user_canusecrisisatk == 1)
 					{
 						A_PlaySound("crisisattack",6);
 						A_PlaySound("crisisattack2",7);
@@ -738,9 +738,9 @@ Actor DSChaingunguy64 : DSChaingunguy Replaces DsChaingunguy
 				else
 				{
 					A_SetUserVar("user_canusecrisisatk",0);
-					if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-					if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-					if(user_canusecrisisatk == 1)
+					if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+					if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+					if (user_canusecrisisatk == 1)
 					{
 						A_PlaySound("crisisattack",6);
 						A_PlaySound("crisisattack2",7);
@@ -805,9 +805,9 @@ Actor DSDoomImp64 : DSDoomImp Replaces 64DoomImp
 			 else if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 60) { A_SetTics(5); }
 
 			 A_SetUserVar("user_canusecrisisatk",0);
-			 if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-			 if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-			 if(user_canusecrisisatk == 1)
+			 if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+			 if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+			 if (user_canusecrisisatk == 1)
 			 {
 				A_PlaySound("crisisattack",6);
 				A_PlaySound("crisisattack2",7);
@@ -824,9 +824,9 @@ Actor DSDoomImp64 : DSDoomImp Replaces 64DoomImp
 			TROO G 6 
 			{
 				A_FaceTarget;
-				if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-				if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-				if(user_canusecrisisatk == 1)
+				if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+				if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+				if (user_canusecrisisatk == 1)
 				{
 					A_PlaySound("crisisattack",6);
 					A_PlaySound("crisisattack2",7);
@@ -1160,9 +1160,9 @@ Actor DSSpectre64 : DSSpectre Replaces 64Spectre
 			 else if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 80) { A_SetTics(6); }
 			 else if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 40) { A_SetTics(7); }
 			 A_SetUserVar("user_canusecrisisatk",0);
-			 if(health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
-			 if(GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
-			 if(user_canusecrisisatk == 1)
+			 if (health <= user_HPLowRange) { if(health <= user_HPCritRange) { A_SetUserVar("user_canusecrisisatk",1); } else { if (random(1,4) == 4) { A_SetUserVar("user_canusecrisisatk",1);	} } }
+			 if (GetCVar("dvds_monstercrisisattacks") == 0) { A_SetUserVar("user_canusecrisisatk",0); }
+			 if (user_canusecrisisatk == 1)
 			 {
 				A_PlaySound("crisisattack2",7);
 				A_PlaySound("crisisattack",6);
@@ -1262,7 +1262,7 @@ Actor DSLostSoul64 : DSLostSoul Replaces 64LostSoul
 	Health 45
 	Radius 16
 	Height 56
-	RenderStyle SoulTrans
+	RenderStyle "SoulTrans"
 	+MISSILEMORE
 	+MISSILEEVENMORE
 	+NOBLOOD
@@ -1279,55 +1279,55 @@ Actor DSLostSoul64 : DSLostSoul Replaces 64LostSoul
 		See:
 			SKUL A 0
 			{
-			 A_TakeInventory("100PercentDMGWeakness",9999);
-			 ACS_NamedExecuteAlways("RefreshStealthInfo",0,0);
-			 if(health <= user_HPLowRange)
-			 {
-				A_ChangeFlag("MISSILEEVENMORE", 1);
-				A_ChangeFlag("NOFEAR", 1);
-				A_ChangeFlag("CANTSEEK", 1);
-				A_ChangeFlag("NOINFIGHTING", 1);
-				A_ChangeFlag("THRUSPECIES", 1);
-				A_ChangeFlag("DONTHARMSPECIES", 1);
-				A_ChangeFlag("NORADIUSDMG", 1);
-				if(health <= user_HPCritRange)
+				A_TakeInventory("100PercentDMGWeakness",9999);
+				ACS_NamedExecuteAlways("RefreshStealthInfo",0,0);
+				if (health <= user_HPLowRange)
 				{
-				 A_ChangeFlag("VISIBILITYPULSE", 1);
-				 A_ChangeFlag("DONTRIP", 1);
-				 A_ChangeFlag("DONTSQUASH", 1);
-				 A_ChangeFlag("DONTMORPH", 1);
-				 A_ChangeFlag("DONTBLAST", 1);
+					A_ChangeFlag("MISSILEEVENMORE", 1);
+					A_ChangeFlag("NOFEAR", 1);
+					A_ChangeFlag("CANTSEEK", 1);
+					A_ChangeFlag("NOINFIGHTING", 1);
+					A_ChangeFlag("THRUSPECIES", 1);
+					A_ChangeFlag("DONTHARMSPECIES", 1);
+					A_ChangeFlag("NORADIUSDMG", 1);
+					if (health <= user_HPCritRange)
+					{
+						A_ChangeFlag("VISIBILITYPULSE", 1);
+						A_ChangeFlag("DONTRIP", 1);
+						A_ChangeFlag("DONTSQUASH", 1);
+						A_ChangeFlag("DONTMORPH", 1);
+						A_ChangeFlag("DONTBLAST", 1);
+					}
+					else
+					{
+						A_ChangeFlag("VISIBILITYPULSE", 0);
+						A_ChangeFlag("DONTRIP", 0);
+						A_ChangeFlag("DONTSQUASH", 0);
+						A_ChangeFlag("DONTMORPH", 0);
+						A_ChangeFlag("DONTBLAST", 0);
+					}
 				}
 				else
 				{
-				 A_ChangeFlag("VISIBILITYPULSE", 0);
-				 A_ChangeFlag("DONTRIP", 0);
-				 A_ChangeFlag("DONTSQUASH", 0);
-				 A_ChangeFlag("DONTMORPH", 0);
-				 A_ChangeFlag("DONTBLAST", 0);
+					A_ChangeFlag("MISSILEEVENMORE", 0);
+					A_ChangeFlag("NOFEAR", 0);
+					A_ChangeFlag("CANTSEEK", 0);
+					A_ChangeFlag("NOINFIGHTING", 0);
+					A_ChangeFlag("THRUSPECIES", 0);
+					A_ChangeFlag("DONTHARMSPECIES", 0);
+					A_ChangeFlag("NORADIUSDMG", 0);
 				}
-			 }
-			 else
-			 {
-				A_ChangeFlag("MISSILEEVENMORE", 0);
-				A_ChangeFlag("NOFEAR", 0);
-				A_ChangeFlag("CANTSEEK", 0);
-				A_ChangeFlag("NOINFIGHTING", 0);
-				A_ChangeFlag("THRUSPECIES", 0);
-				A_ChangeFlag("DONTHARMSPECIES", 0);
-				A_ChangeFlag("NORADIUSDMG", 0);
-			 }
 			}
 			SKUL ABC 3 BRIGHT
 			{
-			 if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 180) { A_ChangeFlag("MISSILEEVENMORE",1); A_ChangeFlag("MISSILEMORE",1); }
-			 else if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 120) { A_ChangeFlag("MISSILEEVENMORE",1); A_ChangeFlag("MISSILEMORE",0); }
-			 else if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 60) { A_ChangeFlag("MISSILEMORE",1); A_ChangeFlag("MISSILEEVENMORE",0); }
-			 else { A_ChangeFlag("MISSILEMORE",0); A_ChangeFlag("MISSILEEVENMORE",0); }
-			 if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 60) { A_ChangeFlag("AVOIDMELEE",1); }
-			 if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 45) { A_SetTics(5); }
-			 if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 90) { A_SetTics(4); }
-			 A_Chase;
+				if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 180) { A_ChangeFlag("MISSILEEVENMORE",1); A_ChangeFlag("MISSILEMORE",1); }
+				else if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 120) { A_ChangeFlag("MISSILEEVENMORE",1); A_ChangeFlag("MISSILEMORE",0); }
+				else if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 60) { A_ChangeFlag("MISSILEMORE",1); A_ChangeFlag("MISSILEEVENMORE",0); }
+				else { A_ChangeFlag("MISSILEMORE",0); A_ChangeFlag("MISSILEEVENMORE",0); }
+				if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 60) { A_ChangeFlag("AVOIDMELEE",1); }
+				if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 45) { A_SetTics(5); }
+				if (GetCVar("dvds_monsterlevelbehavior") > 0 && user_monsterlevel > 90) { A_SetTics(4); }
+				A_Chase;
 			}
 			loop
 		Missile:

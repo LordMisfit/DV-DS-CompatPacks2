@@ -1,0 +1,5 @@
+#include actors/64players.dec
+#include actors/64monsters.dec
+#include actors/64monsterspawners.dec
+#include actors/64items.dec
+#include actors/64weapons.dec
