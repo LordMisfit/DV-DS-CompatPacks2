@@ -10,9 +10,9 @@ Actor PSXBurningBarrel : BurningBarrel Replaces BurningBarrel
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		FCAN ABC 5 Bright
-		Loop
+		Spawn:
+			FCAN ABC 5 Bright
+			Loop
 	}
 }
 
@@ -21,9 +21,9 @@ Actor PSXTechLamp : TechLamp Replaces TechLamp
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		TLMP ABCD 5 Bright
-		Loop
+		Spawn:
+			TLMP ABCD 5 Bright
+			Loop
 	}
 }
 
@@ -32,9 +32,9 @@ Actor PSXTechLamp2 : TechLamp2 Replaces TechLamp2
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		TLP2 ABCD 5 Bright
-		Loop
+		Spawn:
+			TLP2 ABCD 5 Bright
+			Loop
 	}
 }
 
@@ -55,9 +55,9 @@ Actor PSXBlueTorch : BlueTorch Replaces BlueTorch
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		TBLU ABCD 5 Bright
-		Loop
+		Spawn:
+			TBLU ABCD 5 Bright
+			Loop
 	}
 }
 
@@ -76,9 +76,9 @@ Actor PSXEvilEye : EvilEye Replaces EvilEye
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		CEYE ABCB 7 Bright
-		Loop
+		Spawn:
+			CEYE ABCB 7 Bright
+			Loop
 	}	
 }
 
@@ -98,9 +98,9 @@ Actor PSXGreenTorch : GreenTorch Replaces GreenTorch
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		TGRN ABCD 5 Bright
-		Loop
+		Spawn:
+			TGRN ABCD 5 Bright
+			Loop
 	}
 }
 
@@ -130,9 +130,9 @@ Actor PSXHeartColumn : HeartColumn Replaces HeartColumn
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		COL5 AB 18
-		Loop
+		Spawn:
+			COL5 AB 18
+			Loop
 	}
 }
 
@@ -141,9 +141,9 @@ Actor PSXRedTorch : RedTorch Replaces RedTorch
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		TRED ABCD 5 Bright
-		Loop
+		Spawn:
+			TRED ABCD 5 Bright
+			Loop
 	}
 }
 
@@ -152,9 +152,9 @@ Actor PSXShortBlueTorch : ShortBlueTorch Replaces ShortBlueTorch
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		SMBT ABCD 5 Bright
-		Loop
+		Spawn:
+			SMBT ABCD 5 Bright
+			Loop
 	}
 }
 
@@ -168,9 +168,9 @@ Actor PSXShortGreenTorch : ShortGreenTorch Replaces ShortGreenTorch
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		SMGT ABCD 5 Bright
-		Loop
+		Spawn:
+			SMGT ABCD 5 Bright
+			Loop
 	}
 }
 
@@ -184,9 +184,9 @@ Actor PSXShortRedTorch : ShortRedTorch Replaces ShortRedTorch
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		SMRT ABCD 5 Bright
-		Loop
+		Spawn:
+			SMRT ABCD 5 Bright
+			Loop
 	}
 }
 
@@ -274,12 +274,12 @@ Actor PSXBloodyTwitch : BloodyTwitch Replaces BloodyTwitch
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		GOR1 A 12
-		GOR1 B 17
-		GOR1 C 10
-		GOR1 B 8
-		Loop
+		Spawn:
+			GOR1 A 12
+			GOR1 B 17
+			GOR1 C 10
+			GOR1 B 8
+			Loop
 	}
 }
 
@@ -333,10 +333,10 @@ Actor PSXLiveStick : LiveStick Replaces LiveStick
 	Xscale 0.8
 	States
 	{
-	Spawn:
-		POL6 A 7
-		POL6 B 9
-		Loop
+		Spawn:
+			POL6 A 7
+			POL6 B 9
+			Loop
 	}
 }
 

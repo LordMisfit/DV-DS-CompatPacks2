@@ -1,7 +1,7 @@
 // Updated definitions and sprites from PSXDOOM_UPDATE_01.PK3 by unknownna
-#Include "ACTORS/MISC.TXT"
-#Include "ACTORS/DECORATION.TXT"
-#Include "ACTORS/ITEMS.TXT"
+#Include "ACTORS/MISC.DEC"
+#Include "ACTORS/DECORATION.DEC"
+#Include "ACTORS/ITEMS.DEC"
 
 Actor IsFinalDoom : Inventory
 {

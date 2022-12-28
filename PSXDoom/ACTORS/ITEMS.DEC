@@ -6,10 +6,10 @@ Actor PSXBlueCard : BlueCard Replaces BlueCard
 	Inventory.Icon "HUDKEYS0"
 	States
 	{
-	Spawn:
-		BKEY A 12
-		BKEY B 12 Bright
-		Loop
+		Spawn:
+			BKEY A 12
+			BKEY B 12 Bright
+			Loop
 	}
 }
 
@@ -19,10 +19,10 @@ Actor PSXBlueSkull : BlueSkull Replaces BlueSkull
 	Inventory.Icon "HUDKEYS3"
 	States
 	{
-	Spawn:
-		BSKU A 12
-		BSKU B 12 Bright
-		Loop
+		Spawn:
+			BSKU A 12
+			BSKU B 12 Bright
+			Loop
 	}
 }
 
@@ -32,10 +32,10 @@ Actor PSXRedCard : RedCard Replaces RedCard
 	Inventory.Icon "HUDKEYS2"
 	States
 	{
-	Spawn:
-		RKEY A 12
-		RKEY B 12 Bright
-		Loop
+		Spawn:
+			RKEY A 12
+			RKEY B 12 Bright
+			Loop
 	}
 }
 
@@ -45,10 +45,10 @@ Actor PSXRedSkull : RedSkull Replaces RedSkull
 	Inventory.Icon "HUDKEYS5"
 	States
 	{
-	Spawn:
-		RSKU A 12
-		RSKU B 12 Bright
-		Loop
+		Spawn:
+			RSKU A 12
+			RSKU B 12 Bright
+			Loop
 	}
 }
 
@@ -58,10 +58,10 @@ Actor PSXYellowCard : YellowCard Replaces YellowCard
 	Inventory.Icon "HUDKEYS1"
 	States
 	{
-	Spawn:
-		YKEY A 12
-		YKEY B 12 Bright
-		Loop
+		Spawn:
+			YKEY A 12
+			YKEY B 12 Bright
+			Loop
 	}
 }
 
@@ -71,9 +71,9 @@ Actor PSXYellowSkull : YellowSkull Replaces YellowSkull
 	Inventory.Icon "HUDKEYS4"
 	States
 	{
-	Spawn:
-		YSKU A 12
-		YSKU B 12 Bright
-		Loop
+		Spawn:
+			YSKU A 12
+			YSKU B 12 Bright
+			Loop
 	}
 }

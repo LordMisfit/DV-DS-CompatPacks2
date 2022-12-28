@@ -8,8 +8,8 @@ Actor PSXBloodyChain Replaces ArchvileSpawner
 	+SPAWNCEILING
 	States
 	{
-	Spawn:
-		BLCH A -1
-		Stop
+		Spawn:
+			BLCH A -1
+			Stop
 	}
 }
